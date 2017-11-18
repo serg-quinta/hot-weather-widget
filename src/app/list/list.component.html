@@ -1,0 +1,10 @@
+<!-- <pre>{{places$ | async | json}}</pre> -->
+<div *ngIf="places$ | async as places; else loadGif">
+  <div *ngFor="let place of places">
+    <pre>{{ place | json }}</pre>
+  </div>
+</div>
+
+<ng-template #loadGif>
+  <img [src]="loadImg" alt="">
+</ng-template>

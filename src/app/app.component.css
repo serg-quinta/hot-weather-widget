@@ -1,0 +1,12 @@
+h1 {
+  color: #fff;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2em;
+  text-align: center;
+}
+
+.widget {
+  color: #fff;
+  width: 50%;
+  margin: auto;
+}
